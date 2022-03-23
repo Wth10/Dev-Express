@@ -1,0 +1,7 @@
+.md
+.env
+/node_modules
+.env.backup
+.editorconfig
+.vscode
+
