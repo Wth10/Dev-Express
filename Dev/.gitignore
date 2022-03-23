@@ -1,4 +1,4 @@
-.md
+*.md
 .env
 /node_modules
 .env.backup
