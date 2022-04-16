@@ -1,8 +1,6 @@
-*.md
 .env
 /node_modules
 .env.backup
 .editorconfig
-.vscode
-/Readme
-/*.md
+.prettierrc.json
+/.vscode/*.json
