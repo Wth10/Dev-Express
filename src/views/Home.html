@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/public/styles/globals.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Home</title>
 </head>
 
 <body>
-    <h3>Hello World 01</h3>
-    <a href="/blog"><button>Blog</button></a>
+    <h3 class="text-4xl text-blue-700">Hello World 01</h3>
+    <a href="/blog">
+        <button class="button w-full sm:w-auto ml-2 mt-6 py-2 px-3 bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-300 dark:disabled:bg-indigo-800 text-white dark:disabled:text-indigo-400 text-base font-serif rounded-md shadow focus:outline-none cursor-pointer">Blog</button>
+    </a>
+
+    <a href="/pag&erro">
+        <button class="button w-full sm:w-auto ml-2 mt-6 py-2 px-3 bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-300 dark:disabled:bg-indigo-800 text-white dark:disabled:text-indigo-400 text-base font-serif rounded-md shadow focus:outline-none cursor-pointer">404</button>
+    </a>
 </body>
 
 </html>

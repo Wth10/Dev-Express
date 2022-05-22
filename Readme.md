@@ -1,8 +1,7 @@
 ## Start in project
 
----
-
-To use the folder program follow the commands below
+To use the program follow the commands below
+to create folder on W10 just use `mkdir <name>` to create file `NULL > <name>` using the terminal
 
 - `git pull https://github.com/Wth10/Dev-Express`
 
@@ -12,8 +11,8 @@ To use the folder program follow the commands below
 
 - `cd bin`
 
-to open server port with node js installed
+to open server port with `node` installed
 
 - `DEBUG=app:* npm start`
 
-file changes reset server
+💡 file changes reset server!
