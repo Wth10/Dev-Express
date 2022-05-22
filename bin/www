@@ -3,7 +3,7 @@
  * Star DEBUG=app:* npm start
  */
 
-var app = require('../app');
+var app = require('../Config');
 var debug = require('debug')('app:server');
 var http = require('http');
 
