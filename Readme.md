@@ -15,4 +15,4 @@ to open server port with `node` installed
 
 - `DEBUG=app:* npm start`
 
-💡 file changes reset server!
+💡 File changes reset the server!
