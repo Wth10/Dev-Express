@@ -1,8 +1,3 @@
-/**
- * Module dependencies.
- * Star DEBUG=app:* npm start
- */
-
 var app = require("../Config");
 var debug = require("debug")("Config:server");
 var http = require("http");
