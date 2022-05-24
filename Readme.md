@@ -3,18 +3,19 @@
 ---
 
 To use the program follow the commands below
-to create folder on W10 just use `mkdir <name>` to create file `NULL > <name>` using the terminal
 
-1. `git pull https://github.com/Wth10/Dev-Express`
+To create folder on W10 just use `mkdir <name>` to create file `NULL > <name>` using the terminal
 
-2. `cd Git`
+1. clone repository `git pull https://github.com/Wth10/Dev-Express`
 
-3. `npm install`
+2. open folder `cd Git`
 
-4. `cd bin`
+3. install dependency `npm install`
+
+4. open folder `cd bin`
 
 to open server port with `node` installed
 
-5. `DEBUG=app:* npm start`
+5. start server `DEBUG=app:* npm start`
 
 💡 File changes reset the server!
