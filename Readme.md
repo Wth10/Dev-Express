@@ -16,6 +16,6 @@ To create folder on W10 just use `mkdir <name>` to create file `NULL > <name>` u
 
 to open server port with `node` installed
 
-5. start server `DEBUG=app:* npm start`
+5. start server `DEBUG=Config:* npm start`
 
 💡 File changes reset the server!
